@@ -1,74 +1,66 @@
- Employee Performance Evaluation System — Full Stack Project
+🚀 Employee Performance Evaluation System
 
-A full-stack system for managing employee performance, evaluations, goals, and feedback.
-The platform is designed for Managers, Employees, and Admins.
+A full-stack web application designed to help organizations evaluate employee performance, set goals, provide feedback, and generate performance analytics.
+This system allows Managers, Employees, and Admins to collaborate efficiently with clear workflows and real-time insights.
 
-✔ Backend: Spring Boot (Java + JPA)
-✔ Frontend: React + Vite
-✔ Database: MySQL / PostgreSQL
+📌 Features
+👨‍💼 For Managers
 
- Features
- Manager Features
+Evaluate employee performance using scorecards
 
-Create employee evaluations
+Set performance goals and KPIs
 
-Add comments & feedback
+Provide continuous feedback
 
-Assign & track goals
+Approve/review employee self-evaluations
 
 View performance reports
 
- Employee Features
+👨‍🔧 For Employees
 
-View evaluations
+Submit self-evaluation
 
-Track assigned goals
+Track performance scores
 
-View manager feedback
+View feedback and goals set by managers
 
- Admin Features
+Update personal goals and skill progress
 
-Manage users
+🛠 For Admin
 
-Monitor system analytics
+Manage employees
 
-Generate reports
+Manage departments
 
-📂 Project Structure
-Employee-Performance-Evaluation-System/
-│
-├── Backend/ (Spring Boot)
-│   ├── src/main/java/com/example/performance/
-│   │   ├── controller/
-│   │   │   ├── ManagerController.java
-│   │   │   ├── EmployeeController.java
-│   │   ├── service/
-│   │   │   ├── ManagerService.java
-│   │   │   ├── EmployeeService.java
-│   │   ├── model/
-│   │   │   ├── Employee.java
-│   │   │   ├── Evaluation.java
-│   │   │   ├── Goal.java
-│   │   │   ├── Feedback.java
-│   │   ├── repository/
-│   │   │   ├── EmployeeRepository.java
-│   │   │   ├── EvaluationRepository.java
-│   │   │   ├── GoalRepository.java
-│   │   │   ├── FeedbackRepository.java
-│   ├── application.properties
-│   ├── PerformanceSystemApplication.java
-│
-├── Frontend/ (React + Vite)
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── context/
-│   │   ├── services/
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   ├── public/
-│   ├── .env
-│   ├── package.json
-│   ├── vite.config.js
-│
-└── README.md  (this file)
+Manage manager–employee assignments
+
+Manage all performance evaluation cycles
+
+Access complete analytics dashboard
+
+🏗 Tech Stack
+Frontend
+
+React.js
+
+Vite
+
+TailwindCSS
+
+Axios
+
+React Router
+
+Backend
+
+Node.js
+
+Express.js
+
+JWT Authentication
+
+Bcrypt (Password hashing)
+
+Database
+
+MySQL / PostgreSQL (your choice)

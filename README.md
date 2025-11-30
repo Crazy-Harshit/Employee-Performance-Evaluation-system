@@ -64,3 +64,8 @@ Bcrypt (Password hashing)
 Database
 
 MySQL / PostgreSQL (your choice)
+<img width="1637" height="875" alt="Screenshot 2025-11-30 230332" src="https://github.com/user-attachments/assets/f50d3f2f-2faf-4d4b-b35f-15c196193c40" />
+
+
+
+

@@ -1,16 +1,74 @@
-# React + Vite
+ Employee Performance Evaluation System — Full Stack Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack system for managing employee performance, evaluations, goals, and feedback.
+The platform is designed for Managers, Employees, and Admins.
 
-Currently, two official plugins are available:
+✔ Backend: Spring Boot (Java + JPA)
+✔ Frontend: React + Vite
+✔ Database: MySQL / PostgreSQL
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Features
+ Manager Features
 
-## React Compiler
+Create employee evaluations
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Add comments & feedback
 
-## Expanding the ESLint configuration
+Assign & track goals
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+View performance reports
+
+ Employee Features
+
+View evaluations
+
+Track assigned goals
+
+View manager feedback
+
+ Admin Features
+
+Manage users
+
+Monitor system analytics
+
+Generate reports
+
+📂 Project Structure
+Employee-Performance-Evaluation-System/
+│
+├── Backend/ (Spring Boot)
+│   ├── src/main/java/com/example/performance/
+│   │   ├── controller/
+│   │   │   ├── ManagerController.java
+│   │   │   ├── EmployeeController.java
+│   │   ├── service/
+│   │   │   ├── ManagerService.java
+│   │   │   ├── EmployeeService.java
+│   │   ├── model/
+│   │   │   ├── Employee.java
+│   │   │   ├── Evaluation.java
+│   │   │   ├── Goal.java
+│   │   │   ├── Feedback.java
+│   │   ├── repository/
+│   │   │   ├── EmployeeRepository.java
+│   │   │   ├── EvaluationRepository.java
+│   │   │   ├── GoalRepository.java
+│   │   │   ├── FeedbackRepository.java
+│   ├── application.properties
+│   ├── PerformanceSystemApplication.java
+│
+├── Frontend/ (React + Vite)
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── context/
+│   │   ├── services/
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   ├── public/
+│   ├── .env
+│   ├── package.json
+│   ├── vite.config.js
+│
+└── README.md  (this file)
